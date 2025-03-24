@@ -1,15 +1,13 @@
 #!/bin/bash
-#SBATCH --job-name=sigma5
+#SBATCH --job-name=<job name>
 #SBATCH --export=ALL
 #SBATCH --time=1-00:00:00
 #SBATCH --nodes=1
 ##SBATCH --ntasks-per-node=1
 ##SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2000m
-#SBATCH --partition=standard
-#SBATCH --account=fanyue98
-
-##SBATCH --output=./o.%j
+#SBATCH --partition=<partition name>
+#SBATCH --account=<account name>
 
 #set number = $1
 #echo "Number passed is: $number"
