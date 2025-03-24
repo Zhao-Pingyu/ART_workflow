@@ -1,0 +1,16 @@
+#log             log_ART.lammps
+print		""
+print		"*********************************************************************"
+print		"                    THE SYSTEM IS NOW AT NEW"
+print		"*********************************************************************"
+print		""
+units			metal
+dimension		3 
+boundary		p p p				
+atom_style		atomic
+atom_modify		map array
+
+read_data		9775-1048.data
+
+pair_style		eam/alloy
+pair_coeff		* * Cu01.eam.alloy Cu
