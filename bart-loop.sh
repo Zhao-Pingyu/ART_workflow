@@ -1,7 +1,5 @@
 #!/bin/tcsh
 set id = $1
-echo "Value of id: $1"
-set original_dir = /home/anqiq/artn-master/gb
 #__________________________________________ ATOMS _____________________________________________ #
 setenv gnrm				1.0E-05
 setenv Inflection			4 
@@ -70,4 +68,3 @@ setenv RESTART				restart.dat		# current data for restarting event
 setenv Write_JMOL			.False.			# Writes the configuration in jmol format.
 ###### RUN THE SIMULATION #######################################################################
 /home/anqiq/artn-master/source/ARTn_exec
-#/home/anqiq/ARTn_v1677/source/ARTn_exec
