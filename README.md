@@ -1,6 +1,6 @@
 # ART_workflow
 
-This is a workflow for using ART nouveau (http://normandmousseau.com/ART-nouveau-81.html) to calculate the activation energy spectrum of grain boundaries, including ground state and metastable grain boundaries. In this example, the activation energies of a $Sigma5$(310) metastable grain boundary in Cu with grain boundary energy of 1048 $J/m^2$ are calculated. To obtain the full specturm, we need to iterate through all the atoms in the grain boundary region (the atom ids are listed in gb_id.txt). In this example, we only calculate the activation energies for 10 atoms. This workflow requires the installation of Python, C++, ART nouveau, LAMMPS (https://www.lammps.org/), and OVITO (https://www.ovito.org/).
+This is a workflow for using ART nouveau (http://normandmousseau.com/ART-nouveau-81.html) to calculate the activation energy spectrum of grain boundaries, including ground state and metastable grain boundaries. In this example, the activation energies of a $Sigma 5$(310) metastable grain boundary in Cu with grain boundary energy of 1048 $J/m^2$ are calculated. To obtain the full specturm, we need to iterate through all the atoms in the grain boundary region (the atom ids are listed in gb_id.txt). In this example, we only calculate the activation energies for 10 atoms. This workflow requires the installation of Python, C++, ART nouveau, LAMMPS (https://www.lammps.org/), and OVITO (https://www.ovito.org/).
 
 **Files:**
 
